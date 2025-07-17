@@ -4,9 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/HomePage.unity
+    guid: 0cb11ad3cdbe2514e8ae5c661c867949
+  - enabled: 0
+    path: Assets/open_user.unity
+    guid: a23f69765857ef04c94d7992fff8d11a
+  - enabled: 1
+    path: Assets/WelcomeToCoffeeChat.unity
+    guid: 46dce190295a924468d226661d782805
+  - enabled: 1
+    path: Assets/AR.unity
+    guid: 32b40be52a7e803428b35c3454507396
+  - enabled: 0
+    path: Assets/open_target.unity
+    guid: a0f4feda2ff4c5e46a63545e4dfe9f35
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e5f187c9279a4be4488a6c253f182004, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 40fcb039ca566ac42a5dbdee5cb627cc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8b388a6fd77567449a6feb52cd1c4940, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2a712e69cfcf46f44b56ba0d612a95b6, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 27248a898da00504a8f3b07af540a72d, type: 2}
