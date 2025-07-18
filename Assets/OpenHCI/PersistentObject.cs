@@ -13,7 +13,7 @@ public class PersistentObject : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject); // 避免場景重複創建ARSession
+            Destroy(gameObject); // 避免場景重複創建A
         }
     }
 }
